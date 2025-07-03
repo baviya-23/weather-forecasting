@@ -1,0 +1,36 @@
+body{
+    margin:0;
+    padding:0;
+    background-color: black;
+    color:aliceblue;
+    text-align: center;
+
+}
+input{
+    padding:20px;
+    border:none;
+    border-radius: 10px;
+    margin:50px auto;
+
+}
+button{
+    padding:10px;
+    display: flex;
+    gap:10px;
+    margin-left: 45%;
+    border: none;
+    border-radius: 10px;
+    cursor:pointer;
+    
+}
+button {
+  background-color: #444;
+  color: #fff;
+}
+
+button:hover {
+  background-color: #00f7ff;
+  color: #000;
+  transform: scale(1.1);
+  box-shadow: 0 0 10px #00f7ff, 0 0 20px #00f7ff;
+}
